@@ -2,7 +2,7 @@
 
 namespace HelloWorld
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -12,17 +12,25 @@ namespace HelloWorld
             Console.WindowHeight = 40;
 
             Console.WriteLine("A man called .....");
-            Console.ReadLine();
+            string name = Console.ReadLine();
 
-            Console.WriteLine("..... Tried to learn the coding lanuage .....");
-            Console.ReadLine();
+            Console.WriteLine(name + " tried to learn the coding lanuage .....");
+            string lanuage = Console.ReadLine();
 
-            Console.WriteLine("..... He found that his learning was very slow, so he went to work as a .....");
-            Console.ReadLine();
+            Console.WriteLine(name + " found " + lanuage + " very hard, so he went to work as a .....");
+            string job = Console.ReadLine();
 
             Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine("..... To late his wife left him for a real coder ;) .....");
-            Console.ReadLine();
+            Console.WriteLine("His wife wished for higher things than a " + job + ". So she left his sorry ass!");
+
+            Console.Write("Set " + name + " age for him, this could be his last chance: ");
+            int age = Convert.ToInt32( Console.ReadLine() );
+
+            int newAge = age + 5;
+
+            Console.WriteLine(name + " told his wife that " + age + " is still young enough for another chance. In 5 years time he will be " + newAge);
+            Maths();
         }
+        public static void Maths() => Console.WriteLine("Maths Time");
     }
 }
