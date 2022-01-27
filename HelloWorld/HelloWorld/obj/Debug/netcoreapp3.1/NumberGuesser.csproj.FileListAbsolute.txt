@@ -1,0 +1,14 @@
+C:\Users\amar.mohammed\c-sharp-helloWorld\HelloWorld\HelloWorld\bin\Debug\netcoreapp3.1\NumberGuesser.exe
+C:\Users\amar.mohammed\c-sharp-helloWorld\HelloWorld\HelloWorld\bin\Debug\netcoreapp3.1\NumberGuesser.deps.json
+C:\Users\amar.mohammed\c-sharp-helloWorld\HelloWorld\HelloWorld\bin\Debug\netcoreapp3.1\NumberGuesser.runtimeconfig.json
+C:\Users\amar.mohammed\c-sharp-helloWorld\HelloWorld\HelloWorld\bin\Debug\netcoreapp3.1\NumberGuesser.runtimeconfig.dev.json
+C:\Users\amar.mohammed\c-sharp-helloWorld\HelloWorld\HelloWorld\bin\Debug\netcoreapp3.1\NumberGuesser.dll
+C:\Users\amar.mohammed\c-sharp-helloWorld\HelloWorld\HelloWorld\bin\Debug\netcoreapp3.1\NumberGuesser.pdb
+C:\Users\amar.mohammed\c-sharp-helloWorld\HelloWorld\HelloWorld\obj\Debug\netcoreapp3.1\NumberGuesser.csproj.AssemblyReference.cache
+C:\Users\amar.mohammed\c-sharp-helloWorld\HelloWorld\HelloWorld\obj\Debug\netcoreapp3.1\NumberGuesser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amar.mohammed\c-sharp-helloWorld\HelloWorld\HelloWorld\obj\Debug\netcoreapp3.1\NumberGuesser.AssemblyInfoInputs.cache
+C:\Users\amar.mohammed\c-sharp-helloWorld\HelloWorld\HelloWorld\obj\Debug\netcoreapp3.1\NumberGuesser.AssemblyInfo.cs
+C:\Users\amar.mohammed\c-sharp-helloWorld\HelloWorld\HelloWorld\obj\Debug\netcoreapp3.1\NumberGuesser.csproj.CoreCompileInputs.cache
+C:\Users\amar.mohammed\c-sharp-helloWorld\HelloWorld\HelloWorld\obj\Debug\netcoreapp3.1\NumberGuesser.dll
+C:\Users\amar.mohammed\c-sharp-helloWorld\HelloWorld\HelloWorld\obj\Debug\netcoreapp3.1\NumberGuesser.pdb
+C:\Users\amar.mohammed\c-sharp-helloWorld\HelloWorld\HelloWorld\obj\Debug\netcoreapp3.1\NumberGuesser.genruntimeconfig.cache

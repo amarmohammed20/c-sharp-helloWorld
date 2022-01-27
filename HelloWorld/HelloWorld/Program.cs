@@ -1,36 +1,64 @@
 ﻿using System;
 
-namespace HelloWorld
+// Namespace which is the main area for all the code inc the class to be stored
+namespace NumberGuesser
 {
+    // In OOP we working in classes and this is the main class
     public class Program
     {
+        //Entry point for the application, meathod 
+        //Static is a function that can contain code but we use void as it returns nothing
         static void Main(string[] args)
         {
-            //This is a comment, same as JavaScript
+            string appName = "Number Guesser";
+            string appVersion = "1.0.0";
+            string author = "Amar Mohammed";
 
-            Console.Title = "Story Time";
-            Console.WindowHeight = 40;
+            //Change colour of text for Title/Header
+            Console.ForegroundColor = ConsoleColor.Green;
 
-            Console.WriteLine("A man called .....");
+            Console.WriteLine("{0}: Version {1} by {2}", appName, appVersion, author);
+
+            //Reset the text colour
+            Console.ResetColor();
+
+            //Ask users name
+            Console.WriteLine("What is your name?");
+
+            //Place the username into a string variable
             string name = Console.ReadLine();
 
-            Console.WriteLine(name + " tried to learn the coding lanuage .....");
-            string lanuage = Console.ReadLine();
+            Console.WriteLine("Hello {0}, lets play a game of number guessing....", name);
 
-            Console.WriteLine(name + " found " + lanuage + " very hard, so he went to work as a .....");
-            string job = Console.ReadLine();
+            //Set correct number 
+            int correctNumber = 7;
 
-            Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine("His wife wished for higher things than a " + job + ". So she left his sorry ass!");
+            //Number that is guessed
+            int guessedNumber = 0;
 
-            Console.Write("Set " + name + " age for him, this could be his last chance: ");
-            int age = Convert.ToInt32( Console.ReadLine() );
+            Console.WriteLine("Guess a number between 1 and 10 ....");
 
-            int newAge = age + 5;
+            while(guessedNumber != correctNumber)
+            {
+                string numberAttempted = Console.ReadLine();
+                guessedNumber = int.Parse(numberAttempted);
 
-            Console.WriteLine(name + " told his wife that " + age + " is still young enough for another chance. In 5 years time he will be " + newAge);
-            Maths();
+                if(guessedNumber != correctNumber)
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+
+                    Console.WriteLine("Hard luck you guessed {0} and that is not the right answer, try again .....", numberAttempted);
+
+                    Console.ResetColor();
+                }
+
+            }
+
+            Console.ForegroundColor = ConsoleColor.Green;
+
+            Console.WriteLine("Well done you guessed the right number of {0} dont get excited this is only .net it wont be around in a few days .....", correctNumber);
+
+            Console.ResetColor();
         }
-        public static void Maths() => Console.WriteLine("Maths Time");
     }
 }

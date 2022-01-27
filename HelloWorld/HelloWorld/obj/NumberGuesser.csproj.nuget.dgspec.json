@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\amar.mohammed\\c-sharp-helloWorld\\HelloWorld\\HelloWorld\\HelloWorld.csproj": {}
+    "C:\\Users\\amar.mohammed\\c-sharp-helloWorld\\HelloWorld\\HelloWorld\\NumberGuesser.csproj": {}
   },
   "projects": {
-    "C:\\Users\\amar.mohammed\\c-sharp-helloWorld\\HelloWorld\\HelloWorld\\HelloWorld.csproj": {
+    "C:\\Users\\amar.mohammed\\c-sharp-helloWorld\\HelloWorld\\HelloWorld\\NumberGuesser.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\amar.mohammed\\c-sharp-helloWorld\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
-        "projectName": "HelloWorld",
-        "projectPath": "C:\\Users\\amar.mohammed\\c-sharp-helloWorld\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
+        "projectUniqueName": "C:\\Users\\amar.mohammed\\c-sharp-helloWorld\\HelloWorld\\HelloWorld\\NumberGuesser.csproj",
+        "projectName": "NumberGuesser",
+        "projectPath": "C:\\Users\\amar.mohammed\\c-sharp-helloWorld\\HelloWorld\\HelloWorld\\NumberGuesser.csproj",
         "packagesPath": "C:\\Users\\amar.mohammed\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\amar.mohammed\\c-sharp-helloWorld\\HelloWorld\\HelloWorld\\obj\\",
         "projectStyle": "PackageReference",
